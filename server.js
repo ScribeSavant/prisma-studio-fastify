@@ -68,7 +68,7 @@ class StudioServer {
 
             app.post("/prisma/login", async (req, reply) => {
                 const { email, password } = req.body;
-                if (email === this.auth.default.email && password === this.auth.default.password) {
+                if (email === this.auth.email && password === this.auth.password) {
                     console.log("Login successful");
                     req.session.set("prisma-user", { email });
                     await req.session.save();
