@@ -1,6 +1,6 @@
 {
   "name": "prisma-studio-fastify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple prisma studio plugin for fastify",
   "main": "index.js",
   "scripts": {
