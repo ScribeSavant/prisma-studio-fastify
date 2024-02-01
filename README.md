@@ -41,3 +41,8 @@ fastify.listen({ port: 3000 }, (err, address) => {
     console.log(err || "Server started on 3000") // prisma path is https://url:3000/prisma
 })
 ```
+
+## Screenshots
+![1](/img/screenshot1.png)
+![1](/img/screenshot2.jpg)
+![1](/img/screenshot3.png)
