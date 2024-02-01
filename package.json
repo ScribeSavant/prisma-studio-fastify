@@ -1,0 +1,44 @@
+{
+  "name": "prisma-studio-fastify",
+  "version": "0.0.1",
+  "description": "A simple prisma studio plugin for fastify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scribesavant/prisma-studio-fastify.git"
+  },
+  "keywords": [
+    "prisma",
+    "studio",
+    "fastify-prisma",
+    "prisma-fastify",
+    "prisma",
+    "studio",
+    "auth"
+  ],
+  "author": "ScribeSavant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scribesavant/prisma-studio-fastify/issues"
+  },
+  "homepage": "https://github.com/scribesavant/prisma-studio-fastify#readme",
+  "dependencies": {
+    "@fastify/cookie": "^9.3.1",
+    "@fastify/formbody": "^7.4.0",
+    "@fastify/session": "^10.7.0",
+    "@fastify/static": "^6.12.0",
+    "@prisma/engines": "^5.9.0",
+    "@prisma/internals": "^5.9.0",
+    "@prisma/studio-common": "^0.497.0",
+    "@prisma/studio-pcw": "^0.497.0",
+    "checkpoint-client": "^1.1.33",
+    "fastify-plugin": "^4.5.1",
+    "untildify": "^4.0.0"
+  },
+  "devDependencies": {
+    "fastify": "^4.26.0"
+  }
+}
